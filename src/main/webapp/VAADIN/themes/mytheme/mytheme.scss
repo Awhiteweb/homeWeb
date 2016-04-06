@@ -1,0 +1,15 @@
+@import "../valo/valo.scss";
+
+@mixin mytheme {
+  @include valo;
+
+  .my-grid {
+    .row {
+        .col {
+            width: 33%;
+        }
+        width: 100%;
+    }
+    width: 100%;
+  }
+}
